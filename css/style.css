@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(9, 182, 9);
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 8vh;
+}
+
+body{
+    background-color: rgb(29, 48, 48);  
+}
+.navlist{
+    list-style: 3px;
+    display: flex;
+}
+.navlist li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+
+}
+.barraDePesquisa{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+}
+.butProcurar{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(7, 99, 7);
+    border: 2px outset white;
+}
