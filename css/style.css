@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 a{
@@ -50,4 +51,26 @@ body{
     color: white;
     background-color: rgb(7, 99, 7);
     border: 2px outset white;
+}
+
+.desc{
+    display: flex;
+    align-items: center;
+}
+
+.sobreNosH2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+.sobreNosP{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+#masterchief{
+    margin-left: 600px;
+    width: 1700px;
+    height: auto;
+    transform: scaleX(-1); 
 }
